@@ -19,7 +19,7 @@ class CalendarsController < ApplicationController
     params.require(:calendars).permit(:date, :plan)
   end
 
-# issue2 メソッド名をスネークケースに修正（getWeek → get_week）
+# issue2 メソッド名をスネークケースに修正（getWeek → get_week）再々修正
   def get_week
     wdays = ['(日)','(月)','(火)','(水)','(木)','(金)','(土)']
 
